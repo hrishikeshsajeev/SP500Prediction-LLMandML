@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+scipy
+newspaper3k
+transformers
+torch
+google-cloud-bigquery
