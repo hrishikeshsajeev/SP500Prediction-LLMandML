@@ -76,7 +76,7 @@ Trading signals are generated using a rule based threshold system that converts 
 
 
 #### 4. Predictive Modelling - LLM (End-to-End)
-This architecture utilizes **Vertex AI (Gemini 2.5 Pro)** in a reasoning-based approach:
+This architecture utilizes **Vertex AI (Gemini 2.5 Pro)** in a reasoning-based approach. Vertex AI API was used, and the model was built by calling the API on Python:
 1.  **Prompt Engineering**: A comprehensive prompt feeds the model with a merged dataset combining technical indicators, volatility regimes, and news data.
 2.  **Ensemble Prediction**: The model generates multiple predictions (ensemble approach) to reduce variance and hallucination.
 3.  **Direct Forecasting**: The LLM directly outputs the predicted return and confidence level, skipping the intermediate indicator forecasting step.
