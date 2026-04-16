@@ -6,6 +6,8 @@
 
 ## Executive Summary
 
+### Link to report: https://drive.google.com/file/d/1gqdXdyDWW0XXQA955czHg9PwfYZH28Ql/view?usp=share_link
+
 This study investigates whether Large Language Models outperform traditional Machine Learning approaches for portfolio return generation by processing financial sentiment and technical data. The study examines how different information processing designs capture market dynamics. Using S&P500 index data from March 2021 to March 2025, the study implements 2 forecasting architectures. The first is a two stage Support Vector Regression model with technical indicators and sentiment data quantified by using FinBERT. The ML underwent thorough feature engineering across the variables. The second is an end to end LLM model which processes sentiment text directly along with technical indicators. The LLM model underwent detailed prompt engineering to capture relationships within the data.
 
 
